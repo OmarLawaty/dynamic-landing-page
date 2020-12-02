@@ -124,6 +124,32 @@ section {
     transition: ease 0.3s all;
 }
 
+
+/* To up Button */
+
+.btn {
+    width: 20px ;
+    height: 20px;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    border-radius:100%; 
+    background-color: rgb(255, 255, 255); 
+    border: 5px rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    text-justify: center; 
+    padding: 15px; 
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+.btn:hover {
+    background-color: rgb(2, 2, 2); 
+    border: 5px rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;

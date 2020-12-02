@@ -17,3 +17,5 @@ You should create a section element and add attribute
 * And highlights the section that you are reading .
 
 * Highlighting the section name which you are reading 
+
+* Making a button that goes to the page top

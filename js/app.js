@@ -49,3 +49,14 @@ function isNavSlotisSelected (section) {
         }
     }
 }
+
+//adding Go Up button to the DOM
+const button = document.createElement('botton');
+button.setAttribute('class','btn');
+button.textContent = 'Go Up'
+document.body.appendChild(button)
+
+//make Go Up button go to top
+button.addEventListener('click', ()=> {
+    scrollTo(0,0);
+})
